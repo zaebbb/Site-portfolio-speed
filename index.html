@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:title" content="Zaeb Proger - Веб-разработчик">
+    <meta property="og:site_name" content="Zaeb Proger - Веб-разработчик">
+    <meta property="og:description" content="Сайт портфолио веб-разработчика">
+    <meta property="og:image" content="./img/preview.png">
+    <title>Zaeb Proger</title>
+    <link type="image/x-icon" rel="shortcut icon" href="./img/favicon.png">
+
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./script/slider/style.css">
+
+    <script src="./json/slider_db.json" defer></script>
+    <script src="./script/slider/script.js" defer></script>
+    <script src="./script/script.js" defer></script>
+    <script src="./script/animate_script.js" defer></script>
+    <script src="https://kit.fontawesome.com/7438528e75.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+
+
+  <div class="messageTechEnginering active"  onclick="modalSettingSite();">
+    <div class="modelTech">
+      <p>Я работаю над этой частью контента вскоре этот контент появится на сайте😊</p>
+    </div>
+  </div>
+  
+    <section class="header_section">
+        <header>
+          <a href="#" class="logo">
+              <img src="./img/logo.png">
+          </a>
+          <div class="toggle" onclick="menuToggle();"></div>
+        </header>
+        <div class="glass"></div>
+        <div class="content">
+          <h2>Zaeb Proger<br><span>Разработчик полного стёка веб-технологий</span></h2>
+        </div>
+        <video src="./video/services/service_1.m4v" autoplay loop muted></video>
+        <ul class="sci">
+          <li style="--i:1" class="form_open"><button>Написать</button></li>
+          <li style="--i:2" class="contacts_open"><button>Контакты</button></li>
+        </ul>
+        <ul class="navigator">
+          <li style="--i:1"><a onclick="modalSettingSite();" href="#">Обо мне</a></li>
+          <li style="--i:2"><a onclick="modalSettingSite();" href="#">Проекты</a></li>
+          <li style="--i:3"><a onclick="modalSettingSite();" href="#">Услуги</a></li>
+          <li style="--i:4"><a onclick="modalSettingSite();" href="#">Проекты</a></li>
+          <li style="--i:4"><a onclick="modalSettingSite();" href="#">Клиенты</a></li>
+        </ul>
+        <div class="bottom_image_decor bottom_go"></div>
+      </section>
+
+      <!-- about -->
+      <section class="about_section width_content" id="about">
+          <div class="content_descr">
+                <h1>Моя деятельность</h1>
+                <p>Привет! Я Владимир Михайлов разработчик полного стёка веб-технологий. Работаю по полному стеку начиная от структуры дизайн-макета сайта до его полного развертывания на хостинге для полной функциональности. Опыт разработки<b> веб-приложений, верстки и дизайна</b> составляет около полутора лет практики и теории. В своей работе в основном полагаюсь на <b>качество</b> и <b>результат</b> готового продукта, не завершаю свою работу пока не готов финальный проект сайта утвержденный заказчиком.</p>
+          </div>
+          <div class="content_image">
+            <div class="image_layer"></div>
+          </div>
+      </section>
+      <section class="technology_section width_content" id="technology">
+        <h1 class="title_sec">Какие технологии я использую<img src="./img/logo.png"></h1>
+          <div class="swiper">
+            <div class="swiper-wrapper slider_technology">
+              <!-- sliders -->
+             
+              <!-- sliders -->
+            </div>
+          </div>
+      </section>
+
+      <!-- slider -->
+      <section class="slider_main" id="services">
+        <div class="swiperMain">
+          <div class="bottom_image_decor rotateSettings"></div>
+          <div class="swiper-wrapper mainSliderServices">
+            <!-- sliders -->
+            
+            <!-- sliders -->
+          </div>
+        <div class="bottom_image_decor bottom_no"></div>
+          <div class="swiper_pagination"></div>
+          <div class="navigate_buttons">
+            <div class="swiper_button_prev">🠐</div>
+            <div class="swiper_button_next">🠒</div>
+          </div>
+        </div>
+      </section>
+      <section class="products_section width_content" id="products">
+        <h1 class="title_sec">Выполненные проекты<img src="./img/logo.png"></h1>
+        <div class="cards_products">
+          <!-- cards -->
+          
+          <!-- cards -->
+        </div>
+      </section>
+      <section class="client_section width_content" id="clients">
+        <h1 class="title_sec">Клиенты<img src="./img/logo.png"></h1>
+        <div class="swiper_clients">
+          <div class="swiper-wrapper swiper_clients_wrapper">
+            <!-- sliders -->
+            
+            <!-- sliders -->
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <img src="./img/foot_bg_top.png" class="foot_bg_top">
+        <div class="content_footer width_content">
+          <div class="head_content_footer">
+            <div class="block_footer block_footer_scrolling">
+              <h3>Навигация</h3>
+              <ul>
+                <li><a href="#about">Деятельность</a></li>
+                <li><a href="#technology">Технологии</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#products">Проекты</a></li>
+                <li><a href="#clients">Клиенты</a></li>
+              </ul>
+              <h4>Функции</h4>
+              <div class="block_footer_menu">
+                <ul>
+                  <li><button class="open_send_footer">Написать</button></li>
+                  <li><button class="open_contact_footer">Контакты</button></li>
+                </ul>
+              </div>
+            </div>
+            <div class="block_footer disabledMenu block_footer_menu">
+              <h3>Меню</h3>
+              <ul>
+                <li><a onclick="return modalSettingSite();" href="#">Обо мне</a></li>
+                <li><a onclick="return modalSettingSite();" href="#">Проекты</a></li>
+                <li><a onclick="return modalSettingSite();" href="#">Услуги</a></li>
+                <li><a onclick="return modalSettingSite();" href="#">Проекты</a></li>
+                <li><a onclick="return modalSettingSite();" href="#">Клиенты</a></li>
+              </ul>
+            </div>
+            <div class="block_footer social">
+              <h3>Я в соц. сетях</h3>
+              <ul>
+                <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100058453693105"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a target="_blank" href="https://vk.com/zaebbb"><i class="fab fa-vk"></i></a></li>
+                <li><a href="https://t.me/vladimir_zaeb_official"><i class="fab fa-telegram-plane"></i></a></li>
+                <li><a target="_blank" href="https://github.com/zaebbb"><i class="fab fa-github"></i></a></li>
+                <li><a target="_blank" href="mailto:vladimirmihajlov0893@gmail.com"><i class="far fa-envelope"></i></a></li>
+                <li><a target="_blank" href="https://www.youtube.com/channel/UCRTSf6i73E_3euH1kYA8TdA"><i class="fab fa-youtube"></i></a></li>
+              </ul>
+            </div>
+            <div class="block_footer">
+              <a href="/">
+                <img src="./img/logo.png">
+              </a>
+            </div>
+          </div>
+          <div class="footer_content_footer">
+            <div class="copyright">
+              <p>ZAEBPROGER <span class="timeDate"></span> &copy; Все права защищены</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <div class="arrowScrolling" onclick="scrollingToCheckHeight()">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+
+      <div class="modal_window open_modal_contact">
+        <div class="modal">
+          <i class="fas fa-times close_modal_contact"></i>
+          <h1>Контакты</h1>
+          <h3>Контактные данные</h3>
+          <p><b>ФИО: </b>Михайлов Владимир Константинович</p>
+          <p><b>Email: </b>vladimirmihajlov0893@gmail.com</p>
+          <p><b>Телефон: </b> 8-901-201-38-94</p>
+          <h3>Я в соц. сетях</h3>
+          <ul class="social_contacts">
+            <li><a target="_blank" href="https://www.facebook.com/profile.php?id=100058453693105"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a target="_blank" href="https://vk.com/zaebbb"><i class="fab fa-vk"></i></a></li>
+            <li><a href="https://t.me/vladimir_zaeb_official"><i class="fab fa-telegram-plane"></i></a></li>
+            <li><a target="_blank" href="https://github.com/zaebbb"><i class="fab fa-github"></i></a></li>
+            <li><a target="_blank" href="mailto:vladimirmihajlov0893@gmail.com"><i class="far fa-envelope"></i></a></li>
+            <li><a target="_blank" href="https://www.youtube.com/channel/UCRTSf6i73E_3euH1kYA8TdA"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="modal_window open_modal_send">
+        <div class="modal">
+          <i class="fas fa-times close_modal_send"></i>
+          <h3>Отправьте сообщение!</h3>
+          <form action="#" class="send_data"">
+            <input type="text" name="name" placeholder="Введите ваше имя" oninput="validate('.inputName','.errorName','Поле ввода имени обязательно для заполнения')" class="inputName">
+            <div class="errorName"></div>
+
+            <input type="email" name="email" placeholder="Введите ваш адрес электронной почты" class="inputEmail" oninput="validate('.inputEmail','.errorEmail','Поле ввода почты обязательно для заполнения')">
+            <div class="errorEmail"></div>
+
+            <select name="service" onmouseover="validate('.inputService','.errorService','Выберите вид услуги')" class="inputService">
+              <option selected disabled>Выберите вид услуги</option>
+              <option>Посадка сайта на Wordpress</option>
+            </select>
+            <div class="errorService"></div>
+            <textarea name="message" placeholder="Напишите кратко о том что необходимо сделать" class="inputMessage" oninput="validate('.inputMessage','.errorMessage','Поле ввода сообщения обязательно для заполнения')"></textarea>
+            <div class="errorMessage"></div>
+            <input type="submit" value="ОТПРАВИТЬ СООБЩЕНИЕ">
+          </form>
+        </div>
+      </div>
+</body>
+</html>

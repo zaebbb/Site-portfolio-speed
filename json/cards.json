@@ -1,0 +1,58 @@
+{
+    "data": [
+        {
+            "image": "form_kutts.png",
+            "title": "Форма занесения данных",
+            "type": "Полный стек технологий",
+            "url": ""
+        },
+        {
+            "image": "upkb_conference.png",
+            "title": "Программа конференций",
+            "type": "Верстка",
+            "url": ""
+        },
+        {
+            "image": "design_discovery.png",
+            "title": "Редизайн сайта",
+            "type": "Дизайн",
+            "url": ""
+        },
+        {
+            "image": "educate_crypto_site.png",
+            "title": "Крипто сайт - Учебный",
+            "type": "Верстка",
+            "url": ""
+        },
+        {
+            "image": "educate_flaby_site.png",
+            "title": "Flaby - Учебный",
+            "type": "Верстка",
+            "url": ""
+        },
+        {
+            "image": "educate_color_site.png",
+            "title": "Сайт цветов - Учебный",
+            "type": "Верстка, клиентское программирование",
+            "url": ""
+        },
+        {
+            "image": "design_mobile.png",
+            "title": "Умный дом",
+            "type": "Дизайн мобильного приложения",
+            "url": ""
+        },
+        {
+            "image": "restapi.png",
+            "title": "Сервер сайта постов",
+            "type": "Серверное программирование",
+            "url": ""
+        },
+        {
+            "image": "moreplus.png",
+            "title": "Будет дополнено",
+            "type": "Скоро выведу еще проекты!",
+            "url": ""
+        }
+    ]
+}
